@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2da5cc0f-97e7-4743-9de1-4b094b54bb08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Notenverteilung.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notenverteilung.py" afterDir="false" />
+    <list default="true" id="2da5cc0f-97e7-4743-9de1-4b094b54bb08" name="Changes" comment="Öffnen der Datei hinzugefügt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notenverteilung.py" beforeDir="false" afterPath="$PROJECT_DIR$/notenverteilung.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +56,19 @@
       <option name="presentableId" value="Default" />
       <updated>1727334317139</updated>
     </task>
+    <task id="LOCAL-00001" summary="Öffnen der Datei hinzugefügt">
+      <option name="closed" value="true" />
+      <created>1727335855933</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727335855933</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Öffnen der Datei hinzugefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Öffnen der Datei hinzugefügt" />
   </component>
 </project>
