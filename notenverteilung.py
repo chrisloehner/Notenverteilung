@@ -10,7 +10,6 @@ def is_number(s):
         return False
 def read_csv(file_path):
     noten_anzahl =[]
-    noten_1_6 = [1, 2, 3, 4, 5, 6]
       #open csv file
     with open(file_path) as csvdatei:
         klassenliste = csv.reader(csvdatei)
@@ -28,6 +27,7 @@ def plot_notenverteilung(noten_anzahl):
     plt.title('Notenverteilung')
     plt.ylabel('Anzahl')
     plt.xlabel('Noten')
+    plt.savefig('Files/Notenverteilung_Bargraph.png')
     plt.show()
 
 plot_notenverteilung(read_csv('Files/schueler_noten.csv'))
