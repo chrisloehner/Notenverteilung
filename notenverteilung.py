@@ -11,8 +11,9 @@ def is_number(s):
         return False
 
 
-def read_csv(file_path):
+def plot_notenverteilung(file_path):
     noten_anzahl = []
+    schulnoten = [1, 2, 3, 4, 5, 6]
     # open csv file
     with open(file_path) as csvdatei:
         klassenliste = csv.reader(csvdatei)
@@ -26,17 +27,16 @@ def read_csv(file_path):
     gesamtnotenanzahl = sum(noten_anzahl)
     notendurchscnitt = gesamtnote / gesamtnotenanzahl
     print(notendurchscnitt)
-    return noten_anzahl
-
-
-def plot_notenverteilung(noten_anzahl):
-    noten = [1, 2, 3, 4, 5, 6]
-    plt.bar(noten, noten_anzahl)
+    plt.bar(schulnoten, noten_anzahl, label= f'Notendurchscnitt:{notendurchscnitt}')
     plt.title('Notenverteilung')
     plt.ylabel('Anzahl')
     plt.xlabel('Noten')
+    plt.legend()
     plt.savefig('Files/Notenverteilung_Bargraph.png')
     plt.show()
 
 
-plot_notenverteilung(read_csv('Files/schueler_noten.csv'))
+
+
+
+plot_notenverteilung('Files/schueler_noten.csv')
